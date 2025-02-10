@@ -1,2 +1,98 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+# Advance Shopping App
+
+Advance Shopping App is a Flutter-based shopping application designed to provide a seamless shopping experience. It includes essential features like product listing, cart management, and a well-structured UI.
+
+## Features
+- 🛍️ Minimalist shopping UI
+- 🛒 Add & remove items from cart
+- 🎨 Light theme support
+- 🚀 Optimized Flutter code using Provider for state management
+- 🏗️ Well-structured project architecture
+
+## Installation
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/yourusername/advance_shopping_app.git
+   ```
+2. Navigate to the project directory:
+   ```sh
+   cd advance_shopping_app
+   ```
+3. Install dependencies:
+   ```sh
+   flutter pub get
+   ```
+4. Run the application:
+   ```sh
+   flutter run
+   ```
+
+## Project Structure
+The project follows a modular structure for better maintainability and scalability:
+```
+advance_shopping_app/
+│── assets/
+│   ├── images/   # Stores images used in the app
+│   ├── icons/    # Icons for UI elements
+│
+│── lib/
+│   │── components/  # Reusable UI components
+│   │   ├── button.dart
+│   │   ├── my_drawer.dart
+│   │   ├── my_list_title.dart
+│   │   ├── my_product_title.dart
+│   │
+│   │── models/  # Application logic and data management
+│   │   ├── cart_page.dart
+│   │   ├── home.dart
+│   │   ├── intro_page.dart
+│   │   ├── shop_page.dart
+│   │
+│   │── themes/  # Theme configurations
+│   │   ├── light_mode.dart
+│   │
+│   ├── main.dart  # Entry point of the application
+│
+│── pubspec.yaml   # Dependency management
+│── README.md      # Project documentation
+```
+
+## File Overview
+### `components/`
+- **button.dart** – Custom button widget for UI interactions.
+- **my_drawer.dart** – Navigation drawer for the app.
+- **my_list_title.dart** – List item design for navigation.
+- **my_product_title.dart** – Product title UI component.
+
+### `models/`
+- **cart_page.dart** – Handles cart functionality.
+- **home.dart** – Main homepage structure.
+- **intro_page.dart** – Introduction screen of the app.
+- **shop_page.dart** – Product listing and shopping page.
+
+### `themes/`
+- **light_mode.dart** – Light mode theme settings.
+
+### `main.dart`
+- The entry point of the Flutter app.
+
+## Technologies Used
+- **Flutter** – Frontend framework
+- **Dart** – Programming language
+- **Provider** – State management
+- **Google Fonts** – Custom fonts
+
+## Contribution
+We welcome contributions! Follow these steps:
+1. Fork the repository.
+2. Create a new branch (`feature-new-feature`).
+3. Commit changes and push to the branch.
+4. Submit a pull request.
+
+## License
+This project is licensed under the **MIT License**. Feel free to modify and use it.
+
+## Contact
+For any issues, feel free to contact **erandarandika200112drck.com** or open an issue on GitHub.
+
+Happy coding! 🚀
